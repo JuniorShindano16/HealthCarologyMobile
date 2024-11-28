@@ -96,6 +96,7 @@ class UserController extends GetxController {
         }),
       );
 
+//revision
       print('Statut de la réponse: ${response.statusCode}');
 
       if (response.statusCode == 200) {
